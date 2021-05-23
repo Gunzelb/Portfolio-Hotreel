@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   margin: 0;
+  --mainBlue: #6495ed;
 }
 body {
   margin: 0 auto;
@@ -27,7 +28,7 @@ navbar h2 {
   width: 100%;
 }
 .filter {
-  background-color: #6495ed;
+  background-color: var(--mainBlue);
   opacity: 0.5;
   height: 100%;
   transition: opacity 1s;
@@ -38,7 +39,7 @@ navbar h2 {
 content {
   background-image: url(https://i.pinimg.com/originals/e0/f7/de/e0f7dea5fa70fcb23a5df52641a249ec.jpg);
   background-position: center;
-  border-top: 15px solid #6495ed;
+  border-top: 15px solid var(--mainBlue);
   display: flex;
   flex-flow: column wrap;
 }
@@ -46,7 +47,7 @@ content {
   width: 100%;
 }
 .section {
-  border-left: 5px solid #6495ed;
+  border-left: 5px solid var(--mainBlue);
   padding-left: 15px;
   width: 100%;
 }
@@ -66,9 +67,6 @@ content {
 
 }
 .cardImage:nth-child(5) {
-
-}
-.label {
 
 }
 
