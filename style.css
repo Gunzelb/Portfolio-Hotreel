@@ -6,24 +6,25 @@
 body {
   margin: 0 auto;
 }
+h2 {
+  font-weight: 700;
+}
 header {
   background-color: rgba(100,149,237,1);
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
   width: 100%;
 }
 header h1 {
   color: black;
-}
-navbar {
-  display: flex;
-  justify-content: flex-end;
-}
-navbar h2 {
-  margin: 5px;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 700;
 }
 .topImage {
   background-image: url(https://images.pexels.com/photos/1054289/pexels-photo-1054289.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
   background-position: center;
   background-size: cover;
+  font-family: 'Noto Sans JP', sans-serif;
   height: 250px;
   width: 100%;
 }
@@ -42,32 +43,20 @@ content {
   border-top: 15px solid var(--mainBlue);
   display: flex;
   flex-flow: column wrap;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
+}
+content h2 {
+  font-weight: 700;
 }
 .title {
   width: 100%;
 }
 .section {
   border-left: 5px solid var(--mainBlue);
+  font-family: 'Noto Sans', sans-serif;
   padding-left: 15px;
   width: 100%;
-}
-.cardImage {
-
-}
-.cardImage:nth-child(1) {
-
-}
-.cardImage:nth-child(2) {
-
-}
-.cardImage:nth-child(3) {
-
-}
-.cardImage:nth-child(4) {
-
-}
-.cardImage:nth-child(5) {
-
 }
 
 footer {
@@ -83,12 +72,12 @@ footer {
     flex-flow: row wrap;
   }
   .section {
-    flex: 3 1 70%;
+    flex: 3 1 80%;
     margin: 5px;
     width: 70%;
   }
   .title {
-    flex: 1 0 20%;
+    flex: 1 0 10%;
     margin: 5px;
     width: 30%;
   }
